@@ -1,0 +1,7 @@
+model,easy_sr,medium_sr,hard_sr,overall_sr
+DeepSeek-V3.1,,,0.0,0.0
+Llama-3.3-70B-Instruct,,100.0,,100.0
+claude-sonnet-4-5,100.0,,,100.0
+gpt-4.1,,100.0,,100.0
+gpt-5.1-codex,100.0,0.0,,50.0
+o3,,,0.0,0.0

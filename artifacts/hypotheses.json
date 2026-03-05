@@ -1,0 +1,30 @@
+[
+  {
+    "id": "H1",
+    "text": "Frontier closed models achieve at least +5 percentage points higher Success Rate than open models.",
+    "metric": "overall_sr_gap_closed_vs_open_pp",
+    "threshold": 5.0,
+    "direction": ">="
+  },
+  {
+    "id": "H2",
+    "text": "Hard tasks reduce Success Rate by at least 15 percentage points compared with easy tasks.",
+    "metric": "easy_minus_hard_sr_pp",
+    "threshold": 15.0,
+    "direction": ">="
+  },
+  {
+    "id": "H3",
+    "text": "Higher quality score is associated with higher latency (a non-trivial quality-latency tradeoff).",
+    "metric": "corr_quality_latency",
+    "threshold": 0.2,
+    "direction": ">="
+  },
+  {
+    "id": "H4",
+    "text": "Tasks with safety violations have at least 20 percentage points lower Success Rate.",
+    "metric": "sr_gap_no_violation_minus_violation_pp",
+    "threshold": 20.0,
+    "direction": ">="
+  }
+]

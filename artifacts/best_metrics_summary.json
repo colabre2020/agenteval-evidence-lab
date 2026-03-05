@@ -1,0 +1,6 @@
+{
+  "best_sr_model": "Llama-3.3-70B-Instruct",
+  "best_sr_percent": 100.0,
+  "best_qs_model": "claude-sonnet-4-5",
+  "best_qs_percent": 89.0
+}

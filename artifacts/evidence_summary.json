@@ -1,0 +1,30 @@
+[
+  {
+    "id": "H1",
+    "text": "Frontier closed models achieve at least +5 percentage points higher Success Rate than open models.",
+    "value": 9.999999999999998,
+    "threshold": 5.0,
+    "supported": true
+  },
+  {
+    "id": "H2",
+    "text": "Hard tasks reduce Success Rate by at least 15 percentage points compared with easy tasks.",
+    "value": 100.0,
+    "threshold": 15.0,
+    "supported": true
+  },
+  {
+    "id": "H3",
+    "text": "Higher quality score is associated with higher latency (a non-trivial quality-latency tradeoff).",
+    "value": -0.2891812612278087,
+    "threshold": 0.2,
+    "supported": false
+  },
+  {
+    "id": "H4",
+    "text": "Tasks with safety violations have at least 20 percentage points lower Success Rate.",
+    "value": 66.66666666666666,
+    "threshold": 20.0,
+    "supported": true
+  }
+]
